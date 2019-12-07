@@ -14,7 +14,7 @@
                "type": "inputNumber",
                "scss": false,
                "key" : "ShippingIcons.shippingicon1",
-               "label" : "Config.shippingid1"
+               "label" : "Config.shippingid"
             }
      }
   }
