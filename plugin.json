@@ -1,0 +1,28 @@
+{
+  "version"           :"1.0.0",
+  "isClosedSource"    :false,
+  "name"              :"ShippingIcons",
+  "license"           :"Copyright by Marktplatz-Experten.de",
+  "description"       :"",
+  "namespace"         :"ShippingIcons",
+  "marketplaceName"   :{"de": "🎅🏽 ShippingIcons","en": "🎅🏽 ShippingIcons"},
+  "categories"        :["3527"],
+  "author"            :"Marktplatz-Experten.de",
+  "shortDescription"  :{"de": ".","en": ""},
+  "pluginIcon"        :"icon_plugin_xs.png",
+  "authorIcon"        :"icon_author_xs.png",
+  "email"             :"info@marktplatz-experten.de",
+  "keywords"          :["marktplatz-experten", "plugins", "container", "versand", "shipping", "icons", "design", "template"],
+  "type"              :"general",
+  "require"           :[],
+  "serviceProvider"   :"ShippingIcons\\Providers\\ShippingIconsServiceProvider",
+  "dataProviders"     :
+  [
+    {
+      "key":"ShippingIcons\\Containers\\ShippingIconsContainer",
+      "name":"ShippingIcons Assets",
+      "description":"",
+      "defaultLayoutContainer": "Ceres::PageDesign.AfterOpeningBodyTag"
+    }
+  ]
+}
